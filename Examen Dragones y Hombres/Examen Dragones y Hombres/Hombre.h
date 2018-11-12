@@ -1,6 +1,6 @@
 #ifndef  _HOMBRE_
 #define _HOMBRE_
-#endif // ! _LUCHADORES_
+
 
 #include "Luchadores.h"
 
@@ -14,5 +14,8 @@ class Hombre : public ILuchadores
 public:
 	virtual void lanzarArma();
 	virtual void moverse();
-	//etc
+	virtual void dibuja();
+	virtual void morir();
 };
+
+#endif // ! _LUCHADORES_

@@ -12,5 +12,6 @@ protected:
 public:
 	virtual void lanzarArma() = 0;
 	virtual void moverse() = 0;
-	//y demás
+	virtual void dibuja() = 0;
+	virtual void morir() = 0;
 };

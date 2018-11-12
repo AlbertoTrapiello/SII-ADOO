@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{D6674B40-419A-42D1-9666-B4D3CD7AB90F}</ProjectGuid>
+    <ProjectGuid>{B10D88F2-CC64-455D-9CD0-4EDF0B60F141}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Programamoléculas</RootNamespace>
+    <RootNamespace>Examenprimerparcial17</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,14 +147,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Atomo.h" />
-    <ClInclude Include="MoleculaAgua.h" />
+    <ClInclude Include="Peon.h" />
+    <ClInclude Include="Rey.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Tablero.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="VaporAgua.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Programa moléculas.cpp" />
+    <ClCompile Include="Examen primer parcial 17.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

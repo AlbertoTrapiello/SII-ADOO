@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{D6674B40-419A-42D1-9666-B4D3CD7AB90F}</ProjectGuid>
+    <ProjectGuid>{ED694F9F-B89E-4060-922B-AD71BF7E23E0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Programamoléculas</RootNamespace>
+    <RootNamespace>EjerciFamily</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,14 +147,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Atomo.h" />
-    <ClInclude Include="MoleculaAgua.h" />
+    <ClInclude Include="Family.h" />
+    <ClInclude Include="Father.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="VaporAgua.h" />
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Programa moléculas.cpp" />
+    <ClCompile Include="Ejerci_Family.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
